@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link href="./css/main.css" rel="stylesheet"/>
+    <link href="./css/nav.css" rel="stylesheet"/>
+    <link href="./css/articles.css" rel="stylesheet"/>
+    <link href="./css/grid.css" rel="stylesheet"/>
+</head>
+<body bgcolor="lightblue">
+<header>
+    <div class="wrapper">
+        <div class="header_wrapper">
+            <nav>
+                <a href="./index.html"><img id="main_img" width="60px" height="60px" src="./pictures/Earth.svg" alt="Главная страница"/></a>
+                    <ul>
+                    <li><a href="./pages/iss/iss.html">МКС</a></li>
+                    <li><a href="./registration.html">Войти</a></li>
+                    </ul>  
+                </nav>
+        </div>
+    </div>
+</header>
+<div>
+<video width="690px" height="390px" controls="controls" poster="../pictures/1_1.png">
+    <source src="./pictures/0_1.mp4" type='video/mp4' >
+</video>
+<div class="parallax">
+    <h1>
+        История Вселенной
+    </h1>
+    <p>
+        Наиболее подтвержденная теория происхождения нашей Вселенной основана на событии, известном как Большой взрыв. 
+        Эта теория родилась из наблюдения, что другие галактики удаляются от нашей с огромной скоростью во всех направлениях, 
+        как если бы все они были запущены древней взрывной силой. <a href="historyofuniverse.html"> Читать далее</a>
+    </p> 
+ </div>
+<div class="places__cards">
+    <div class="places__card places__card_size_lg">
+        <img src="./pictures/1_1.png" class="places__card-pic places__card-pic_size_lg">
+        <h6 class="places__card-title">
+            <a href="./pages/iss/1.html">Миссия DART к двойному астероиду</a>
+        </h6>     
+    </div>
+    <div class="places__card places__card_size_lg">
+        <img src="./pictures/2_1.png" class="places__card-pic places__card-pic_size_lg">
+        <h6 class="places__card-title">
+            <a href="./pages/iss/2.html">В созвездии Кассиопея обнаружен белый карлик</a>
+        </h6>
+    </div>
+    <div class="places__card places__card_size_sm">
+        <img src="./pictures/3_1.png" class="places__card-pic places__card-pic_size_sm">
+        <h6 class="places__card-title">
+            <a href="./pages/iss/3.html">«Hubble» завершил ежегодный обзор планет-гигантов</a>
+        </h6>
+    </div>
+    <div class="places__card places__card_size_sm">
+        <img src="./pictures/4_1.png" class="places__card-pic places__card-pic_size_sm">
+        <h6 class="places__card-title">
+            <a href="./pages/iss/4.html">Астрономы обнаружили малую черную дыру в соседней галактике</a>
+        </h6>
+    </div>
+    <div class="places__card places__card_size_sm">
+        <img src="./pictures/5_1.png" class="places__card-pic places__card-pic_size_sm">
+        <h6 class="places__card-title">
+            <a href="./pages/iss/5.html">Астрономы сфотографировали 2 интересных объекта в созвездии Гидра</a>
+        </h6>
+    </div>
+    <div class="places__card places__card_size_lg">
+        <img src="./pictures/6_1.png" class="places__card-pic places__card-pic_size_lg">
+        <h6 class="places__card-title">
+            <a href="./pages/iss/6.html">Астрономы нашли фтор в очень далекой галактике</a>
+        </h6>
+    </div>
+    <div class="places__card places__card_size_lg">
+        <img src="./pictures/7_1.png" class="places__card-pic places__card-pic_size_lg">
+        <h6 class="places__card-title">
+            <a href="./pages/iss/7.html">«Juno» раскрыл глубину Большого красного пятна Юпитера</a>
+        </h6>
+    </div>
+    <div class="places__card places__card_size_sm">
+        <img src="./pictures/8_1.png" class="places__card-pic places__card-pic_size_sm">
+        <h6 class="places__card-title">
+            <a href="./pages/iss/8.html">«Hubble» сфотографировал умирающую звезду</a>
+        </h6>
+    </div>
+    <div class="places__card places__card_size_sm">
+        <img src="./pictures/9_2.png" class="places__card-pic places__card-pic_size_sm">
+        <h6 class="places__card-title">
+            <a href="./pages/iss/9.html">Раскрыта природа радиосигнала, пришедшего со стороны Проксима Центавра</a>
+        </h6>
+    </div>
+    <div class="places__card places__card_size_sm">
+        <img src="./pictures/10_1.png" class="places__card-pic places__card-pic_size_sm">
+        <h6 class="places__card-title">
+            <a href="./pages/iss/10.html">Анализ потенциального сигнала из системы Проксима Центавра завершен</a>
+        </h6>
+    </div>
+</div>
+<footer id="two">
+    <ul>
+        <li>Наш телефон: <a href="tel:+375-22-222-22-22">+375-22-222-22-22</a></li>
+        <li>E-mail: <a href="mailto:spaceinside@gmail.com">spaceinside@gmail.com</a></li>
+        <li id="one">Copyright © 2021 DevPractical. All rights reserved.</li>
+    </ul>
+</footer>
+<button id="scroll-top" onclick="on_top()">↑</button>
+<script src="./js/script.js"></script>
+</body>
+</html>
